@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanju's portfolio</title>
+    <link rel="icon" href="/images/employee.png">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <nav id="navigation">
+        <h1>sanju <span>.</span></h1>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                    width="24px" fill="#000000">
+                    <path
+                        d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg></li>
+            <li><a href="#profile">Home</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#myproject-container">My work</a></li>
+            <li><a href="#e-w">Contact Me</a></li>
+        </ul>
+        <ul id="hideonMobile">
+            <li><a class="a1" href="#profile">Home</a></li>
+            <li><a class="a2" href="#aboutme">About</a></li>
+            <li><a class="a3" href="#myproject-container">My work</a></li>
+            <li><a class="a4" href="#e-w">Contact Me</a></li>
+        </ul>
+        <div id="theme">
+            <img style="cursor: pointer;" id="dark" src="/images/moon (3).png" width="40px" height="40px">
+            <img style="cursor: pointer;" id="light" src="/images/Light mode.png" width="40px" height="40px">
+            <div onclick="showsidebar()" id="svg1" style="cursor: pointer;">
+                <svg id="blackmenu" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                    width="24px" fill="#000000">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+                <svg id="whitemenu" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                    width="24px" fill="#FFFFFF">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+            </div>
+        </div>
+    </nav>
+    <div id="profile">
+        <img src="/images/sanju.png" width="80px" alt="">
+        <p id="name">Hi! I'm Sanju </p>
+        <p id="description">frontend web developer based in chennai.</p>
+        <p id="smallAbout">I am from Villupuram</p>
+
+        <div id="butttons">
+            <a href="#pitems"><button id="btn1">contact me</button></a>
+            <a href="/pdf/sanju (2).pdf" download=""><button id="btn2">my resume</button></a>
+        </div>
+    </div>
+    <div id="aboutme">
+        <p class="introduction">introduction</p>
+        <p class="about-me">About me</p>
+    </div>
+    <div id="aboutme-container">
+        <div id="left-container">
+            <img id="sanju-img" src="/images/sanju1.jpg" alt="">
+
+            <div id="round-image">
+                <img src="images/round image.png" alt="" style="border: none;">
+            </div>
+
+        </div>
+        <div id="right-container">
+            <p>
+                I'm flexible and hard working person, because I love this work. Quick decision maker and self motivating
+                person it helps me to
+                stay positive in every situations.
+            </p> <br><br>
+            <div id="skill-container">
+
+                <div class="skills">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#333333">
+                        <path
+                            d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z" />
+                    </svg>
+                    <h3>Languages</h3>
+                    <p>HTML, CSS, JavaScript, React Js</p>
+                </div>
+                <div class="skills">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                        fill="#333333">
+                        <path
+                            d="M479.33-120 192.67-276.67v-240L40-600l439.33-240L920-600v318h-66.67v-280L766-516.67v240L479.33-120Zm0-316 301.34-164-301.34-162-300 162 300 164Zm0 240.33 220-120.66v-162.34L479.33-360l-220-120v163.67l220 120.66ZM480-436Zm-.67 79.33Zm0 0Z" />
+                    </svg>
+                    <h3>Education</h3>
+                    <p>Bsc in Computer Science</p>
+                </div>
+                <div class="skills">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                        fill="#333333">
+                        <path
+                            d="M430.67-269.33 581.33-420 430-571.33 392.67-534l114 114-113.34 113.33 37.34 37.34ZM146.67-120q-27 0-46.84-19.83Q80-159.67 80-186.67v-466.66q0-27 19.83-46.84Q119.67-720 146.67-720H320v-93.33q0-27 19.83-46.84Q359.67-880 386.67-880h186.66q27 0 46.84 19.83Q640-840.33 640-813.33V-720h173.33q27 0 46.84 19.83Q880-680.33 880-653.33v466.66q0 27-19.83 46.84Q840.33-120 813.33-120H146.67Zm0-66.67h666.66v-466.66H146.67v466.66Zm240-533.33h186.66v-93.33H386.67V-720Zm-240 533.33v-466.66 466.66Z" />
+                    </svg>
+                    <h3>Projects</h3>
+                    <p>Built more than 4 projects</p>
+                </div>
+            </div>
+            <div id="tools-container">
+                <p>Tools I use</p>
+                <div id="tools">
+                    <div class="tools-images">
+                        <img src="images/vscode.png" alt="vscode">
+                    </div>
+                    <div class="tools-images">
+                        <img src="images/git.png" alt="git">
+                    </div>
+                    <div class="tools-images">
+                        <img src="images/pics art.png" alt="pics art">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div><br><br><br>
+    <div id="myproject-container">
+        <div id="portfolio-review">
+            <p class="introduction">My portfolio</p>
+            <p class="about-me">My latest projects</p>
+            <p class="my-projectDes">Welcome to my web development portfolio! Explore a collection of projects showcasing
+                my expertise in front-end development</p>
+        </div>
+        <div class="project-view">
+            <div class="project-background" id="project-background1">
+                <div class="main-div">
+                    <div class="texts">
+                        <h4 class="h4">E-commerce site</h4>
+                        <p class="p">Web Design</p>
+                    </div>
+                    <div class="svg-file">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                            fill="#000000">
+                            <path
+                                d="M226.67-80q-27 0-46.84-19.83Q160-119.67 160-146.67v-666.66q0-27 19.83-46.84Q199.67-880 226.67-880H560l240 240v260h-66.67v-220H520v-213.33H226.67v666.66H620V-80H226.67ZM878-74.33 753.33-199v113h-66.66v-227.33H914v66.66H800L924.67-122 878-74.33Zm-651.33-72.34V-813.33v666.66Z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <a target="_blank" href="https://sanju9344.github.io/blackjack-game/">
+            <div class="project-background" id="project-background2">
+                
+                    <div class="main-div">
+                        <div class="texts">
+                            <h4 class="h4">Blackjack game</h4>
+                            <p class="p">Web Design</p>
+                        </div>
+                        <div class="svg-file">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                                fill="#000000">
+                                <path
+                                    d="M226.67-80q-27 0-46.84-19.83Q160-119.67 160-146.67v-666.66q0-27 19.83-46.84Q199.67-880 226.67-880H560l240 240v260h-66.67v-220H520v-213.33H226.67v666.66H620V-80H226.67ZM878-74.33 753.33-199v113h-66.66v-227.33H914v66.66H800L924.67-122 878-74.33Zm-651.33-72.34V-813.33v666.66Z" />
+                            </svg>
+                        </div>
+                    </div>
+
+            </div>
+        </a>
+        </div>
+        <div id="project-view1" class="project-view">
+            <div class="project-background" id="project-background3">
+                <div class="main-div">
+                    <div class="texts">
+                        <h4 class="h4">Login page</h4>
+                        <p class="p">Web Design</p>
+                    </div>
+                    <div class="svg-file">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                            fill="#000000">
+                            <path
+                                d="M226.67-80q-27 0-46.84-19.83Q160-119.67 160-146.67v-666.66q0-27 19.83-46.84Q199.67-880 226.67-880H560l240 240v260h-66.67v-220H520v-213.33H226.67v666.66H620V-80H226.67ZM878-74.33 753.33-199v113h-66.66v-227.33H914v66.66H800L924.67-122 878-74.33Zm-651.33-72.34V-813.33v666.66Z" />
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+            <div class="project-background" id="project-background4">
+                <div class="main-div">
+                    <div class="texts">
+                        <h4 class="h4">Netflix clone</h4>
+                        <p class="p">Web Design</p>
+                    </div>
+                    <div class="svg-file">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                            fill="#000000">
+                            <path
+                                d="M226.67-80q-27 0-46.84-19.83Q160-119.67 160-146.67v-666.66q0-27 19.83-46.84Q199.67-880 226.67-880H560l240 240v260h-66.67v-220H520v-213.33H226.67v666.66H620V-80H226.67ZM878-74.33 753.33-199v113h-66.66v-227.33H914v66.66H800L924.67-122 878-74.33Zm-651.33-72.34V-813.33v666.66Z" />
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div><br>
+    <div id="contanct-me">
+        <div id="pitems">
+            
+        <p class="introduction">Connect with me</p>
+        <p class="about-me">Get in touch</p>
+        <p class="my-projectDes">I'd love to hear from you! If you have any questions, comments or feedback, please use the buttons bellow.</p>
+        </div>
+       <div id="e-w">
+        <a  href="mailto:ssanjuu34@gmail.com"><button>e-mail</button></a>
+        <a href="tel:9344656370"><button>Mobile</button></a>
+        <a target="_blank" href="http://api.whatsapp.com/send?phone=919344656370&text=Hi sanju"><button>whatsapp</button></a>
+       </div> 
+    </div>
+    <div id="hr" style="margin-top: 20px;margin-bottom: 20px;">
+        <hr style="width:80%; margin:0 auto;">
+    </div>
+        <footer>
+            <h5>&copy;2024 Sanju. All rights reserved.</h5>
+            <a href="https://github.com/sanju9344">
+                <h5>Github</h5>
+            </a><a href="https://in.linkedin.com/in/sanju-r-393366302">
+                <h5>Linkedin</h5>
+    </footer>
+    <div id="uparrow">
+           <a href="#navigation"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="M446.67-160v-513l-240 240L160-480l320-320 320 320-46.67 47-240-240v513h-66.66Z"/></svg></a> 
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
