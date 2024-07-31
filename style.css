@@ -546,6 +546,10 @@ position: relative;
         width:100%;
         margin:0 auto;
     }
+    #e-w img{
+        width:60px;
+        height:60px;
+    }
     
 }
 @media(max-width:575px){
