@@ -322,6 +322,11 @@ nav ul li a:hover{
     background-size:220px 200px;
     background-repeat: no-repeat;
 }
+.project-view #project-background5{
+    background-image: url(images/kids.jpg);
+    background-size:220px 200px;
+    background-repeat: no-repeat;
+}
 .project-background .main-div{
     width:95%;
     display: flex;
