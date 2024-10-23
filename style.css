@@ -266,6 +266,30 @@ nav ul li a:hover{
     margin-top: 5px;
     margin-left: 3px;
 }
+#tools-certifications{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+#tools-certifications #certificates ul{
+    margin-top:20px;
+    overflow: hidden;
+}
+#tools-certifications #certificates ul li{
+    list-style: none;
+    font-size:19px;
+}
+#tools-certifications #certificates ul li a{
+    text-decoration: underline;
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+#tools-certifications #certificates ul li a:hover{
+    color:brown
+}
 .my-projectDes{
     font-size: 20px;
     width:90%;
@@ -581,6 +605,9 @@ position: relative;
         font-size: 15px;
         width:100%;
         margin:0 auto;
+    }
+    #tools-certifications{
+        flex-direction: column;
     }
     #e-w img{
         width:60px;
