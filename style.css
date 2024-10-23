@@ -270,7 +270,10 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
+}
+#tools-certifications #certificates{
+    margin-top: 15px;
 }
 #tools-certifications #certificates ul{
     margin-top:20px;
