@@ -350,6 +350,12 @@ nav ul li a:hover{
     background-repeat: no-repeat;
 }
 .project-view #project-background5{
+    background-image: url(images/RG.png);
+    background-color: rgb(122, 114, 116);
+    background-size:220px 200px;
+    background-repeat: no-repeat;
+}
+.project-view #project-background6{
     background-image: url(images/kids.jpg);
     background-size:220px 200px;
     background-repeat: no-repeat;
